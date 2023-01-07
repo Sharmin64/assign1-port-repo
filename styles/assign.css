@@ -1,0 +1,253 @@
+/* header section styles */
+.banner{
+    background-image: url("../images/banner/banner2.png");
+    background-size: cover;
+    background-position: center;
+     position: relative;
+     height: 500px;
+     width: 100%;
+}
+.banner> .sub-banner .b-title{
+display: flex;
+text-align:right ;
+/* justify-content: right; */
+padding: 45px 59px;
+
+
+}
+.sub-banner> .para{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 8px 7px 20px;
+    margin: 4px 45px 12px;
+    word-wrap:normal;
+}
+ .sub-banner .btn-primary{
+   margin: 23px 89px;
+   float: right;
+    padding:21px 36px ;
+    align-items: right;
+  border: 2px solid gray;
+  border-radius: 6px;
+  text-align: right;
+} 
+.b-title{
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 144px;
+    margin-left: 630px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    justify-items: last baseline;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: ; */
+}
+
+img{
+    height: 100%;
+}
+.image{
+    flex-basis: 40%;
+}
+/* extra added section */
+.ex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.extra-section>.extra-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    font-style: initial;
+}
+.para-section{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 45px 50px;
+    padding: auto;
+   
+}
+.para-section>h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    font-style: initial;
+
+}
+.list-item{
+    /* list-style: url('/media/examples/rocket.svg'); */
+    list-style: georgian outside url('/non-existent.svg');
+}
+.box .plan{
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+   
+}
+.plan-container >.plan-box .plan-title{
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+}
+.plan-container>.plan-box .plan-para{
+    font-weight: 300;
+    font-size: 24px;
+    
+}
+.item{
+    margin-left: 0.5%;
+    background-color:white;
+    color: black;
+    height: 350px;
+}
+.web-item{
+    display: flex;
+    background-color: #00467e;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+.java-item{
+   display: flex;
+    background-color: #00467e;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+.smoke-item{
+ 
+   display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+.ecom-item{
+   display: flex;
+    background-color: #00467e;
+    height: 50px;
+    margin-left: 10px;
+}
+/* positive section style */
+.positive{
+    margin: 0;
+    padding: 0;
+   width: 96vw;
+   height: 400px;
+   background-image: url("../images/watch.png"),("../images/gradient3.png");
+   background-size: cover;
+   background-blend-mode: multiply;
+
+}
+/* section plan style */
+.plan{
+    margin-top: 130px 30px;
+background: #FFF8F3;
+border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+
+}
+.plan-titl{
+    text-align: center;
+font-weight: 700;
+font-size: 45px;
+margin-bottom: 50px;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+}
+.plan .plan-title{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.plan img{
+    width: 50px;
+    height: auto;
+}
+/* positive section style */
+.positive{
+    width: 96vw;
+    height: 400px;
+    background: url("../images/watch.png"),url("../images/gradient3.png");
+     background-size: cover;
+     mix-blend-mode: multiply;
+}
+.box >.head2{
+    padding: 77px 53px 45px;
+    margin-bottom: 25px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 45px;
+    color: #FFF8F3;
+}
+.box .btn-pri{
+   margin: 5px 40px 36px;
+   padding: 17px 25px;
+   color: rgb(9, 11, 11);
+   background-color: aqua;
+   border: none;
+   border-radius: 5px;
+   
+}
+
+/* footer section style */
+
+.future{
+    display: flex;
+    gap: 100px;
+    background-color: #090908;
+    padding: 130px 200px;
+    margin-top: 38px;
+    height: 300px;
+    color: #fdfdfd;
+   
+}
+.future .future-head{
+    font-weight: 500;
+    font-size: 47px;
+    text-align: left;
+    color: #fdfdfd;
+    font-weight: bold;
+}
+.future .future-para{
+    color: aliceblue;
+}
+
+.future input[type="email"]{
+    margin-bottom: 24px;
+    border: 0;
+    width: 80%;
+    padding: 12px 45px;
+    border-radius: 7px;
+}
+
+input{
+    height: 45px;
+    color: rgb(254, 254, 254);
+    /* background-color: #090908; */
+    border: 2px solid wheat;
+}
+.future img{
+    text-decoration: none;
+    width: 35px;
+    height: auto;
+}
+.future .sub-btn{
+    margin: 20px 70px 0 0 ;
+    padding: 20px 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    width: auto;
+}
